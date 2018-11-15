@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <script>
-      require('./read_socket.js')
-      require('./plots.js')
+
   </script>
   <body>
       <h3>Active Agents</h3>
@@ -18,12 +17,15 @@
           <th>Node</th>
         </tr>
       </table>
-    <div ID="first_plot">
+    <div id="first_plot">
+    </div>
+    <div id="graph">
     </div>
 
     <script>
       // You can also require other files to run in this process
-
+      require('./read_socket.js')
+      require('./plots.js')
     </script>
   </body>
 </html>
