@@ -1,3 +1,5 @@
+// using plotly.js
+// used from example: https://plot.ly/javascript/time-series/
 var csvfile = "example_data/data-2018-08-02T151119-plot-arduino.csv"
 Plotly.d3.csv(csvfile, function(err, rows){
 
